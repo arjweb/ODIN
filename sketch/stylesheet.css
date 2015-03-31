@@ -1,0 +1,25 @@
+#container {
+	position: absolute;
+}
+
+button {
+	padding: 10px;
+}
+.square {
+	background-color: #D8D8D8;
+	position: relative; /* Needed to remove space above line of div's */ 
+	/* inline-block gave gaps between lines I could not remove so  I used float */
+	float: left; /* On one line */
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+
+}
+
+.square:hover {
+	background-color: #C00000;
+}
+
+.drawn {
+	background-color: #C00000;
